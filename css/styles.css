@@ -62,7 +62,7 @@ hr {
   height: 5px;
   width: 10%;
   border-style: none;
-  border-top: dotted;
+  border-top: 1px dotted;
   color: #fff;
 }
 .item {
