@@ -54,16 +54,15 @@ body {
 /* services */
 .services {
   background-color: #000;
-  padding: 5% 25%;
+  padding: 5% 20%;
   color: #fff;
 }
-hr {
+.hr {
   margin: 0 auto;
-  height: 5px;
   width: 10%;
-  border-style: none;
-  border-top: 1px dotted;
+  border-top: 6px dotted;
   color: #fff;
+  opacity: 25%;
 }
 .item {
   margin: 5% 10%;
@@ -77,6 +76,7 @@ hr {
 .s_img1,
 .s_img3,
 .s_img5 {
+  margin-bottom: 1%;
   width: 25%;
   margin-right: 2%;
   float: left;
@@ -84,6 +84,7 @@ hr {
 }
 .s_img2,
 .s_img4 {
+  margin-bottom: 1%;
   width: 25%;
   margin-left: 2%;
   float: right;
@@ -98,12 +99,12 @@ hr {
 .contact {
   padding: 1% 15%;
 }
-.sm_icon{
+.sm_icon {
   width: 20px;
   margin: 0 10px;
 }
-.contact h5{
-margin-top: 1%;
+.contact h5 {
+  margin-top: 1%;
 }
 /* media */
 
@@ -117,7 +118,56 @@ margin-top: 1%;
   .title_item h5 {
     font-size: 16;
   }
+  .services h3 {
+    font-size: 20;
+  }
+  .services {
+    padding: 5% 15%;
+  }
+}
+@media (max-width: 992px) {
   .title_item {
-    text-align: center;
+  text-align: center;
+  }
+}
+
+@media (max-width: 850px) {
+  .services {
+    padding: 5% 4%;
+  }
+  .services h3 {
+    font-size: 18;
+  }
+  .services p {
+    font-size: 14;
+  }
+  .s_img1,
+  .s_img3,
+  .s_img5 {
+    width: 35%;
+  }
+  .s_img2,
+  .s_img4 {
+    width: 35%;
+  }
+  #tittle{
+    padding: 3% 10%;
+  }
+  .photo_slide {
+  padding: 5% 7%;
+}
+}
+@media (max-width: 510px) {
+  .services h3 {
+    font-size: 15;
+  }
+  .services p {
+    font-size: 12;
+  }
+  .title_item h1{
+    font-size: 30;
+  }
+  .title_item h5{
+    font-size: 13;
   }
 }
